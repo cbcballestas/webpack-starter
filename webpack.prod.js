@@ -56,9 +56,9 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              emitFile: true,
-              esModule: false,
-              name: 'assets/[name].[ext]'
+              name: '[name].[ext]',
+              outputPath: 'assets/',
+              publicPath: 'assets/'
             }
           }
         ]
