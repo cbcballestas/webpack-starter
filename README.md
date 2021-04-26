@@ -4,11 +4,13 @@
 
 ### Notas:
 ⚠ Siempre se deben reconstruir los módulos de Node
+
 ```
  npm install
 ```
 
 ⚠ Y para construir el build, use el siguiente comando:
+
 ```
 npm run build
 ```
