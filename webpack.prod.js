@@ -68,7 +68,7 @@ module.exports = {
   plugins: [
     new HtmlWebPlugin({
       template: './src/index.html',
-      filename: './index.[contenthash].html',
+      filename: './index.html',
     }),
     new MiniCssExtractPlugin({
       // Nombre con hash para prevenir que el navegador mantenga estos archivos en el caché (Producción)
