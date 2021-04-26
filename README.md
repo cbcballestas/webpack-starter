@@ -8,7 +8,7 @@
  npm install
 ```
 
-Y para construir el build, use el siguiente comando:
+⚠ Y para construir el build, use el siguiente comando:
 ```
 npm run build
 ```
